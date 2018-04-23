@@ -256,7 +256,7 @@ public class GroupChannelActivity extends AppCompatActivity implements SelectDis
                 PreferenceUtils.setNickname(user.getNickname());
                 PreferenceUtils.setProfileUrl(user.getProfileUrl());
                 PreferenceUtils.setConnected(true);
-                Log.e("Logging","okay "+e);
+            //    Log.e("Logging","okay "+e);
                 // Update the user's nickname
 
                 updateCurrentUserInfo(userNickname);

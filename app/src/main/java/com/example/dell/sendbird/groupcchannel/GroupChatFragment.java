@@ -253,6 +253,7 @@ public class GroupChatFragment extends Fragment implements RecognitionListener {
                         if(userInput.trim().isEmpty()){
                          //   Log.e("empty","func-2");
                             mMessageSendButton.setEnabled(false);
+                            mMessageEditText.setText("");
                         }
                         else {
                             sendUserMessage(userInput);
