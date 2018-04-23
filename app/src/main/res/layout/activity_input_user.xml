@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.sendbird.groupcchannel.InputUserActivity">
+
+
+        <EditText
+            android:id="@+id/user_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/user_id" />
+
+        <EditText
+            android:id="@+id/nick_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/user_id"
+            android:hint="@string/nick_name"
+            />
+
+        <Button
+            android:id="@+id/done"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nick_name"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:text="DONE"/>
+
+        <!--<Button-->
+            <!--android:id="@+id/old"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/done"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:gravity="center_horizontal"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:text="EXISTING USER"/>-->
+
+
+</RelativeLayout>
